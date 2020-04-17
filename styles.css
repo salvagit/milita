@@ -1,0 +1,17 @@
+#tituloPrincipal {
+  color: blue;
+  text-align: center;
+}
+
+.contenedor {
+  width: 50%;
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
