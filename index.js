@@ -3,6 +3,9 @@ function createNota(title, description, image) {
   var templateHtml = document.querySelector("#NotaTpl").innerHTML;
   // genero un elemento div para contener la nota
   var notaContainer = document.createElement("div");
+
+  notaContainer.className = "nota-container col-sm-4";
+
   // asigno el html de mi template
   notaContainer.innerHTML = templateHtml;
 
